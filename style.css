@@ -1,0 +1,180 @@
+* {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #e74c3c;
+}
+
+.block {
+  padding: 3% 10%;
+  font-size: 16pt;
+}
+
+.light {
+  background-color: #FFFFFF;
+  color: #212121;
+}
+
+.dark {
+  background-color: #2c3e50;
+  color: #FFFFFF;
+}
+
+.title {
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.intro {
+}
+
+.introcontent {
+  text-align: left;
+}
+
+.projects {
+}
+
+.contact {
+}
+
+.head {
+  font-size: 28pt;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.name {
+  font-size: 30pt;
+  padding-bottom: 1%;
+}
+
+.description {
+  font-size: 18pt;
+}
+
+.resume {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.resume a {
+  border: 1px solid #e74c3c;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.resume a:hover {
+  background-color: #e74c3c;
+  color: #FFFFFF;
+}
+
+.contactcard {
+  text-align: center;
+  padding: 2%;
+}
+
+.contactcard img {
+  width: 100px;
+}
+
+.contactcard:hover {
+  background-color: #e74c3c;
+  border-radius: 10px;
+}
+
+.contactcard:hover a {
+  color: #FFFFFF;
+}
+
+.project {
+  width: 100%;
+  border: 1px solid #FFFFFF;
+  margin-bottom: 1%;
+  text-align: left;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.projtitle {
+  margin-right: 1%;
+  font-size: 16pt
+}
+
+.projdesc {
+  margin-left: 1%;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+.tags {
+  margin-top: 0.5%;
+}
+
+.tag {
+  padding: 0.3%;
+  padding-right: 1%;
+  padding-left: 1%;
+  font-size: 11pt;
+  font-style: italic;
+  background-color: #e74c3c;
+  border-radius: 10px;
+  margin-right: 1%;
+}
+
+.downdiv {
+  margin-top: 1%;
+  text-align: center;
+}
+
+.down {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+  padding: 0.3%;
+}
+
+.project:hover .downdiv .down{
+  background-color: #e74c3c;
+  color: #e74c3c;
+}
+
+.githublink {
+  text-align: center;
+}
+
+.links {
+  font-size: 13pt;
+  margin-top: 0.5%;
+}
+
+.link {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.divide {
+  font-size: 15pt;
+}
+
+.latexdiv {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.latex {
+  font-size: 11pt;
+}
+
+.footer {
+  font-size: 11pt;
+  text-align: center;
+}
+.footer a {
+  padding-right: 5px;
+  padding-left: 5px;
+}

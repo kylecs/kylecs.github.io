@@ -1,0 +1,193 @@
+% This is a custom resume created by Kyle Spencer <kylecspencer@gmail.com>. Feel free to 
+% use / modify this for personal use.
+%
+% This requires XeTeX to compile because of the fontspec package. You must also chose a font that
+% is installed on your system. I used Roboto Light, which is not installed by default on
+% most systems.
+%
+% Enjoy!
+% - Kyle Spencer
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[margin=0.5in]{geometry}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage{hyperref}
+% \usepackage{fontspec}
+\usepackage{enumitem}
+
+% Config hyperlink
+\hypersetup{
+	urlbordercolor={1 1 1}
+}
+
+% Section commands, used to make a pretty aligned title column with minipages
+
+% Insert entire first minipage, taking text as parameter.
+% Starts next multipage so content can begin immediatly after.
+\newcommand{\startsec}[1]{
+% BEGIN COMMAND
+\noindent\begin{minipage}{0.15\linewidth}
+#1
+\end{minipage}%
+\noindent\begin{minipage}{0.85\linewidth}
+\begin{flushleft}
+% END COMMAND
+}
+
+% Ends second minipage
+\newcommand{\stopsec}{
+% BEGIN COMMAND
+\end{flushleft}
+\end{minipage}
+% END COMMAND
+}
+
+% Provides nice linebreak
+\newcommand{\fullstop}{
+\vskip\medskipamount % or other desired dimension
+\leaders\vrule width \textwidth\vskip0.4pt % or other desired thickness
+\vskip\medskipamount % ditto
+\nointerlineskip
+}
+
+% Begin Content
+\begin{document}
+
+%Nice font, must be a system font.
+% \setmainfont{Roboto Light}
+
+% No page numbering
+\pagenumbering{gobble}
+
+% Header - Name / Generic Info
+\begin{center}
+\LARGE Kyle Spencer
+\break
+\normalsize
+Clinton, Pennsylvania, United States
+\break
+\small kylecspencer@gmail.com | \href{http://kylespencer.me}{kylespencer.me} | 412-759-1172 | \href{http://github.com}{github.com/kylecs}
+\end{center}
+
+\fullstop
+
+% Education Section
+\startsec{\textbf{Education}}
+Pennsylvania State University
+\smallskip
+\begin{itemize}[noitemsep,nolistsep]
+  \item BS in Computer Science, 2019 (Expected)
+  \item 3.56 GPA
+  \item Dean's List Multiple Semesters
+\end{itemize}
+\stopsec
+% End Education Section
+
+\fullstop
+
+% Experience Section
+\startsec{\textbf{Experience}}
+Penn State Beaver Library
+\hfill
+(May 2016 - August 2016)
+\small
+\smallskip
+\break
+Built a dynamic catalog website showing all DVDs available for borrow, providing
+a clean interface for browsing, searching, sorting, and adding DVDs.
+\begin{itemize}[noitemsep,nolistsep]
+  \item Built on openshift free-tier with node.js and express, the backend serves and 
+interacts with the angular fontend.
+  \item DVD information is initially requested from the open movie database, then is 
+stored in a postgres database.
+  \item Used a dynamically regenerating cache to ensure that the newest results always
+load quickly.
+
+\end{itemize}
+\normalsize
+\medskip
+Penn State Beaver Library
+\hfill
+(May 2015 - August 2015)
+\small
+\smallskip
+\break
+Built a sortable showcase wordpress website for the science fiction books available at
+Penn State libraries.
+\begin{itemize}[noitemsep,nolistsep]
+  \item Used Java with Selenium to scrape book identifiers from the Penn State Library
+website, then used the Goodreads API to gather more book data.
+  \item Book data was formatted into HTML using a page template, then a custom wordpress
+bot using Selenium was used to upload the book pages.
+  \item Sorted category pages were generated and uploaded allowing for easy browsing.
+\end{itemize}
+\normalsize
+\stopsec
+% End Experience Section
+
+\fullstop
+
+% Start Projects Section
+\startsec{\textbf{Projects}}
+Rust HTTP Server
+\small
+\smallskip
+\begin{itemize}[noitemsep,nolistsep]
+  \item Used Rust to build a nearly spec compliant HTTP/1.1 server.
+  \item Supports the serving of static files from a given directory.
+\end{itemize}
+\normalsize
+
+\medskip
+Earth Image Timelapse
+\small
+\smallskip
+\begin{itemize}[noitemsep,nolistsep]
+  \item A script to use NASA's Earth Image API to download images chronologically from given coordinates.
+  \item Uses ImageMagick to build images into a timelapse GIF image.
+\end{itemize}
+\normalsize
+
+\medskip
+Flask Forum
+\small
+\smallskip
+\begin{itemize}[noitemsep,nolistsep]
+  \item Uses python and flask to provide a customizable forum for discussion.
+  \item Supports posts with comments, user accounts, and custom subforums.
+\end{itemize}
+\normalsize
+
+\medskip
+Periodic Table Trivia
+\small
+\smallskip
+\begin{itemize}[noitemsep,nolistsep]
+  \item An Android game where a series of questions about chemical elements are asked.
+  \item Supports different game modes, and session high scores.
+\end{itemize}
+\normalsize
+
+\medskip
+\footnotesize
+View more at \href{http://github.com}{github.com/kylecs}
+\normalsize
+\stopsec
+% End Projects Section
+
+\fullstop
+
+% Start Skills Section
+\startsec{\textbf{Skills}}
+Proficient: Python, Javascript
+\break
+Skilled: C++, Java
+\break
+Libraries | Tools: Node.js, Express, Sequelize, Angular, Git
+\stopsec
+% End Skills Section
+
+% We did it!
+\end{document}
