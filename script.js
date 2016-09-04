@@ -1,12 +1,12 @@
 window.onload = function() {
-  var topElement = $("#top");
+  var topElement = document.getElementById("top");
 
   //generate triangle image
   var triangles = Trianglify({
-    height: topElement.outerHeight() + 20,
-    width: topElement.outerWidth() + 20,
+    height: topElement.offsetHeight + 20,
+    width: topElement.offsetWidth + 20,
     cell_size: 40,
     x_colors: "YlGnBu"
   }).canvas();
-  topElement.css("background-image", "url(" + triangles.toDataURL() + ")");
+  topElement.style.backgroundImage = "url(" + triangles.toDataURL() + ")";
 }
