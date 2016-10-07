@@ -71,7 +71,7 @@ a {
 
 .resume {
   text-align: center;
-  padding-top: 6%;
+  padding-top: 40px;
 }
 
 .resume a {
@@ -184,7 +184,7 @@ a {
 .latexdiv {
   width: 100%;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 15px;
 }
 
 .latex {
