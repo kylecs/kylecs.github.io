@@ -88,17 +88,15 @@ Penn State Beaver Library
 \hfill
 (May 2016 - August 2016)
 \small
-\smallskip
+\medskip
 \break
 Built a dynamic catalog website showing all DVDs available for borrow, providing
-a clean interface for browsing, searching, sorting, and adding DVDs.
+an interface for browsing, searching, sorting, and adding DVDs.
+\medskip
 \begin{itemize}[noitemsep,nolistsep]
-  \item Built on openshift free-tier with node.js and express, the backend serves and 
-interacts with the angular fontend.
-  \item DVD information is initially requested from the open movie database, then is 
-stored in a postgres database.
-  \item Used a dynamically regenerating cache to ensure that the newest results always
-load quickly.
+  \item Used Node.js with Express and postgres to implement the backend of the website.
+  \item Designed a single-page frontend with angular and bootstrap that asynchronously requested data from the backend server.
+  \item Implemented a regenerating cache-based solution with node-cache to ensure fresh data for the primary pages always loaded quickly.
 
 \end{itemize}
 \normalsize
@@ -107,16 +105,15 @@ Penn State Beaver Library
 \hfill
 (May 2015 - August 2015)
 \small
-\smallskip
+\medskip
 \break
-Built a sortable showcase wordpress website for the science fiction books available at
+Created a dynamically generated and categorized showcase wordpress website for the science fiction books available at the
 Penn State libraries.
+\medskip
 \begin{itemize}[noitemsep,nolistsep]
-  \item Used Java with Selenium to scrape book identifiers from the Penn State Library
-website, then used the Goodreads API to gather more book data.
-  \item Book data was formatted into HTML using a page template, then a custom wordpress
-bot using Selenium was used to upload the book pages.
-  \item Sorted category pages were generated and uploaded allowing for easy browsing.
+  \item Wrote a Java program with Selenium that downloaded relevant book identifiers from the Penn State Library
+website, then used the Goodreads API to acquire more book data.
+  \item Created program to format the book data into HTML book pages and category pages and upload it to the wordpress website using Selenium.
 \end{itemize}
 \normalsize
 \stopsec
@@ -126,12 +123,11 @@ bot using Selenium was used to upload the book pages.
 
 % Start Projects Section
 \startsec{\textbf{Projects}}
-Rust HTTP Server
+HTTP Server
 \small
 \smallskip
 \begin{itemize}[noitemsep,nolistsep]
-  \item Used Rust to build a nearly spec compliant HTTP/1.1 server.
-  \item Supports the serving of static files from a given directory.
+  \item Implemented an HTTP/1.1 server in Rust, with support for serving static files from a given directory.
 \end{itemize}
 \normalsize
 
@@ -140,28 +136,27 @@ Kernel
 \small
 \smallskip
 \begin{itemize}[noitemsep,nolistsep]
-  \item A small text-mode x86 kernel written in C and assembly.
-  \item Has a shell that supports a few basic commands with parameters.
+  \item Created a text-based x86 kernel with C and assembly.
+  \item Implemented a command system supporting some base commands with parameters.
 \end{itemize}
 \normalsize
 
 \medskip
-Earth Image Timelapse
+NASA Image API Timelapse
 \small
 \smallskip
 \begin{itemize}[noitemsep,nolistsep]
-  \item A python script to use NASA's Earth Image API to download images chronologically from given coordinates.
-  \item Uses ImageMagick to build images into a timelapse GIF image.
+  \item Wrote a script with python to generate an overhead view timelapse GIF of anywhere on earth given the coordinates.
+  \item Implemented functionality to access NASA's Earth Image API and download chronological images, then use ImageMagick to automatically generate the GIF.
 \end{itemize}
 \normalsize
 
 \medskip
-Flask Forum
+Dynamic Forum Website
 \small
 \smallskip
 \begin{itemize}[noitemsep,nolistsep]
-  \item Uses python and flask to provide a customizable forum for discussion.
-  \item Supports posts with comments, user accounts, and custom subforums.
+  \item Used python with flask to create a customizable forum website, with support for user accounts, posts, comments, and a dynamic subforum hierarchy.
 \end{itemize}
 \normalsize
 
@@ -178,9 +173,7 @@ View more at github.com/kylecs
 \startsec{\textbf{Skills}}
 Proficient:	C++, Java
 \break
-Skilled: Javascript, Python
-\break
-Libraries | Tools: Node.js, Git, Linux
+Skilled: Javascript, Python, C
 \stopsec
 % End Skills Section
 
