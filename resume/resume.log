@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2017.8.22)  10 SEP 2017 20:31
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2017.8.22)  25 SEP 2017 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -569,31 +569,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 50.
-\g__fontspec_family_RobotoLight_int=\count183
+\g__fontspec_family_LatoLight_int=\count183
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'RobotoLight(0)' created for font 'Roboto Light' with options
+. Font family 'LatoLight(0)' created for font 'Lato Light' with options
 . [Ligatures=TeX].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->"Roboto
+. - 'normal' (m/n) with NFSS spec.: <->"Lato
 . Light/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"Roboto
-. Light/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
-. - 'bold' (bx/n) with NFSS spec.: <->"Roboto
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.: <->"Lato
 . Light/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Roboto
-. Light/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
-. - 'italic' (m/it) with NFSS spec.: <->"Roboto
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.: <->"Lato
 . Light/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Roboto
-. Light/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
-. - 'bold italic' (bx/it) with NFSS spec.: <->"Roboto
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'bold italic' (bx/it) with NFSS spec.: <->"Lato
 . Light/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Roboto
-. Light/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -606,12 +602,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 11512 strings out of 492998
- 252960 string characters out of 6139961
- 325940 words of memory out of 5000000
- 15466 multiletter control sequences out of 15000+600000
- 533128 words of font info for 46 fonts, out of 8000000 for 9000
+ 11510 strings out of 492998
+ 252768 string characters out of 6139961
+ 326941 words of memory out of 5000000
+ 15461 multiletter control sequences out of 15000+600000
+ 533152 words of font info for 49 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 35i,5n,66p,10367b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,5n,66p,10367b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (1 page).

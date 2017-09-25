@@ -23,7 +23,7 @@
 \newcommand{\startsec}[1]{
 % BEGIN COMMAND
 \noindent\begin{minipage}{0.15\linewidth}
-#1
+\large #1
 \end{minipage}%
 \noindent\begin{minipage}{0.85\linewidth}
 \begin{flushleft}
@@ -50,7 +50,7 @@
 \begin{document}
 
 %Nice font, must be a system font.
-\setmainfont{Roboto Light}
+\setmainfont{Lato Light}
 
 % No page numbering
 \pagenumbering{gobble}
@@ -69,13 +69,13 @@ State College, Pennsylvania, United States
 
 % Education Section
 \startsec{\textbf{Education}}
-The Pennsylvania State University
+\textbf{The Pennsylvania State University}
 \smallskip
 \begin{itemize}[noitemsep,nolistsep]
-  \item BS in Computer Science, 2019 (Expected)
+  \item BS in Computer Science, Spring 2019 (Expected)
+  \item Minor in Mathematics
   \item 3.71 GPA
   \item Dean's List Multiple Semesters
-  \item Tutor for Computer Science
 \end{itemize}
 \stopsec
 % End Education Section
@@ -84,10 +84,25 @@ The Pennsylvania State University
 
 % Experience Section
 \startsec{\textbf{Experience}}
-Penn State Beaver Library
+
+\textbf{Penn State Beaver}\textit{, Computer Science Tutor}
 \hfill
-(May 2016 - August 2016)
 \small
+(September 2016 - December 2016)
+\medskip
+\begin{itemize}[noitemsep,nolistsep]
+  \item Assisted students with class material and assignments.
+  \item Provided students with in class assistance on several occasions.
+
+\end{itemize}
+\normalsize
+\medskip
+\medskip
+
+\textbf{Penn State Beaver Library}
+\hfill
+\small
+(May 2016 - August 2016)
 \medskip
 \break
 Built a dynamic catalog website showing all DVDs available for borrow, providing
@@ -96,19 +111,20 @@ an interface for browsing, searching, sorting, and adding DVDs.
 \begin{itemize}[noitemsep,nolistsep]
   \item Used Node.js with Express and postgres to implement the backend of the website.
   \item Designed a single-page frontend with angular and bootstrap that asynchronously requested data from the backend server.
-  \item Implemented a regenerating cache-based solution with node-cache to ensure fresh data for the primary pages always loaded quickly.
+  \item Implemented a cache-based solution with node-cache to ensure fresh data for the primary pages always loaded quickly.
 
 \end{itemize}
 \normalsize
 \medskip
-Penn State Beaver Library
+\medskip
+\textbf{Penn State Beaver Library}
 \hfill
-(May 2015 - August 2015)
 \small
+(May 2015 - August 2015)
 \medskip
 \break
 Created a dynamically generated and categorized showcase wordpress website for the science fiction books available at the
-Penn State libraries.
+Penn State libraries.Taught people things
 \medskip
 \begin{itemize}[noitemsep,nolistsep]
   \item Wrote a Java program with Selenium that downloaded relevant book identifiers from the Penn State Library
@@ -123,7 +139,7 @@ website, then used the Goodreads API to acquire more book data.
 
 % Start Projects Section
 \startsec{\textbf{Projects}}
-HTTP Server
+\textbf{HTTP Server}
 \small
 \smallskip
 \begin{itemize}[noitemsep,nolistsep]
@@ -132,7 +148,7 @@ HTTP Server
 \normalsize
 
 \medskip
-Kernel
+\textbf{Kernel}
 \small
 \smallskip
 \begin{itemize}[noitemsep,nolistsep]
@@ -142,7 +158,7 @@ Kernel
 \normalsize
 
 \medskip
-NASA Image API Timelapse
+\textbf{NASA Image API Timelapse}
 \small
 \smallskip
 \begin{itemize}[noitemsep,nolistsep]
@@ -152,7 +168,7 @@ NASA Image API Timelapse
 \normalsize
 
 \medskip
-Dynamic Forum Website
+\textbf{Dynamic Forum Website}
 \small
 \smallskip
 \begin{itemize}[noitemsep,nolistsep]
@@ -174,6 +190,8 @@ View more at github.com/kylecs
 Proficient:	C++, Java
 \break
 Skilled: Javascript, Python, C
+\break
+Other: Linux, Git
 \stopsec
 % End Skills Section
 
