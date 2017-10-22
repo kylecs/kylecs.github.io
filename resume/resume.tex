@@ -13,8 +13,11 @@
 \usepackage[margin=0.5in]{geometry}
 \usepackage{ragged2e}
 \usepackage{xcolor}
-\usepackage{fontspec}
+%\usepackage{fontspec}
 \usepackage{enumitem}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
 
 % Section commands, used to make a pretty aligned title column with minipages
 
@@ -50,7 +53,7 @@
 \begin{document}
 
 %Nice font, must be a system font.
-\setmainfont{Lato Light}
+%\setmainfont{Lato Light}
 
 % No page numbering
 \pagenumbering{gobble}
@@ -97,7 +100,6 @@ State College, Pennsylvania, United States
 \end{itemize}
 \normalsize
 \medskip
-\medskip
 
 \textbf{Penn State Beaver Library}
 \hfill
@@ -115,7 +117,6 @@ an interface for browsing, searching, sorting, and adding DVDs.
 
 \end{itemize}
 \normalsize
-\medskip
 \medskip
 \textbf{Penn State Beaver Library}
 \hfill
